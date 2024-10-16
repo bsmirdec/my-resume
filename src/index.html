@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bogdan SMIRDEC</title>
+    <link href="./output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Language Selection -->
+    <div class="language-box">
+      <div class="text-right flex">
+        <label for="language-fr" class="mr-2 flex items-center">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/en/c/c3/Flag_of_France.svg"
+            alt="Français"
+            class="w-5 h-4 mr-1"
+          />
+          Français
+        </label>
+        <input
+          type="radio"
+          id="language-fr"
+          name="language"
+          value="fr"
+          checked
+          onclick="changeLanguage('fr')"
+        />
+        <label for="language-en" class="ml-4 mr-2 flex items-center">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Flag_of_the_United_Kingdom_%283-5%29.svg/1200px-Flag_of_the_United_Kingdom_%283-5%29.svg.png"
+            alt="English"
+            class="w-5 h-4 mr-1"
+          />
+          English
+        </label>
+        <input
+          type="radio"
+          id="language-en"
+          name="language"
+          value="en"
+          onclick="changeLanguage('en')"
+        />
+      </div>
+    </div>
+
+    <div class="md:grid md:grid-flow-col sm:grid-cols-3 max-w-6xl mx-auto">
+      <!-- Left Container -->
+      <div
+        id="left-container"
+        class="w-full bg-[var(--color-background)] p-4 md:p-6 shadow-md"
+      >
+        <!-- Profil -->
+        <section class="mb-8">
+          <div class="flex justify-center pb-4">
+            <div class="w-24 h-24 md:w-32 md:h-32 rounded-full overflow-hidden">
+              <img
+                src="./assets/profile.jpeg"
+                class="w-full h-full object-cover"
+                style="object-position: 90% center; transform: scale(2)"
+                alt="Profile Picture"
+              />
+            </div>
+          </div>
+
+          <h2
+            class="text-2xl font-semibold border-b-2 border-gray-200 pb-2 mb-4"
+            data-content-id="profile-name"
+          >
+            Bogdan SMIRDEC
+          </h2>
+          <div class="mb-8">
+            <p class="text-lg text-gray-600" data-content-id="profile-title">
+              Développeur Backend / Fullstack
+            </p>
+            <p class="text-gray-500 mt-2" data-content-id="profile-location">
+              Strasbourg, France | A distance
+            </p>
+          </div>
+          <div class="flex items-center text-center text-gray-700 mt-4">
+            <!-- Icône Mail -->
+            <i class="fas fa-envelope mr-2"></i>
+            <a href="mailto:email@gmail.com" class="hover:text-blue-600"
+              >bogdan.smirdec@gmail.com</a
+            >
+          </div>
+
+          <div class="flex items-center text-gray-700 mt-4">
+            <i class="fas fa-phone-alt mr-2"></i>
+            <a href="tel:+33619607606" class="hover:text-blue-600"
+              >0619607606</a
+            >
+          </div>
+
+          <div class="flex w-full space-x-4 mt-4 justify-around">
+            <!-- Icône LinkedIn -->
+            <a
+              href="https://www.linkedin.com/in/bogdan-smirdec-318758115/"
+              class="text-gray-700 hover:text-blue-600"
+              target="_blank"
+            >
+              <i class="fab fa-linkedin-in fa-2x"></i>
+            </a>
+
+            <!-- Icône GitHub -->
+            <a
+              href="https://github.com/bsmirdec"
+              class="text-gray-700 hover:text-black"
+              target="_blank"
+            >
+              <i class="fab fa-github fa-2x"></i>
+            </a>
+          </div>
+        </section>
+
+        <!-- Compétences -->
+        <section class="mb-8">
+          <h2
+            class="text-2xl font-semibold border-b-2 border-gray-200 pb-2 mb-4"
+            data-content-id="references-title"
+          >
+            Références
+          </h2>
+          <div
+            data-content-id="references-text"
+            class="flex flex-wrap space-x-2"
+          >
+            <p>
+              Premier site internet - Mon Blanc de travail :
+              <a href="https://www.monblancdetravail.fr" target="_blank"
+                >www.monblancdetravail.fr</a
+              >
+            </p>
+          </div>
+        </section>
+
+        <!-- Compétences -->
+        <section class="mb-8">
+          <h2
+            class="text-2xl font-semibold border-b-2 border-gray-200 pb-2 mb-4"
+            data-content-id="skills-title"
+          >
+            Compétences
+          </h2>
+          <div id="skills-container" class="flex flex-wrap space-x-2">
+            <!-- Les pastilles de compétences seront insérées ici -->
+          </div>
+        </section>
+
+        <!-- Hobbies -->
+        <section class="mb-8">
+          <h2
+            class="text-2xl font-semibold border-b-2 border-gray-200 pb-2 mb-4"
+            data-content-id="hobbies-title"
+          >
+            Hobbies
+          </h2>
+          <ul class="text-gray-700" data-content-id="hobbies-text">
+            <li>
+              <strong>Voyages :</strong> Corée du Sub, Japon, Philippines,
+              Cambodge, Laos, Viet-Nam, Mexique, Etats-Unis
+            </li>
+            <li>
+              <strong>Sports : </strong>Natation, Escalade, Badminton, Vélo,
+              course à pieds, ...
+            </li>
+            <li>Bricolage intérieur/extérieur</li>
+            <li>Jeux Vidéos</li>
+          </ul>
+        </section>
+      </div>
+
+      <!-- Right Container -->
+      <div
+        id="right-container"
+        class="w-full col-span-2 bg-white p-4 md:p-6 shadow-md"
+      >
+        <div class="text-justify mb-8">
+          <p
+            class="text-gray-700 leading-relaxed bg-gray-200 p-4 rounded-xl text-sm"
+            data-content-id="presentation-text"
+          >
+            Fort de 5 ans d'expérience en tant qu'ingénieur travaux, j'ai
+            développé de solides compétences en gestion de projet, travail en
+            équipe, et relations interpersonnelles, en plus des connaissances
+            techniques propres à mon métier. Suite à un séjour en Corée du Sud,
+            j'ai choisi de me reconvertir dans le développement web, un domaine
+            qui m'avait déjà attiré par le passé. Après 6 mois de formation
+            intensive en autonomie, je suis désormais prêt à m'engager
+            professionnellement en tant que développeur backend ou fullstack.
+          </p>
+        </div>
+
+        <!-- Expériences professionnelles -->
+        <section class="mb-8">
+          <h2
+            class="text-2xl font-semibold border-b-2 border-gray-200 pb-2 mb-4"
+            data-content-id="experiences-title"
+          >
+            Expériences Professionnelles
+          </h2>
+          <div class="text-gray-700">
+            <ul class="flex flex-col" data-content-id="experiences-text">
+              <li class="flex items-center gap-2 bg-slate-100 p-2 m-0">
+                <img
+                  class="w-20 object-cover"
+                  src="https://www.cobatconstructions.fr/wp-content/uploads/2022/10/Cobat-Constructions-logo-RVB.png"
+                  loading="lazy"
+                />
+                <div>
+                  <strong>Cobat Constructions (CDI): </strong>
+                  <em>Méru (60)</em>
+                  <ul>
+                    <li>
+                      <u>04/2023 - 03/2024</u>:
+                      <strong>Ingénieur systèmes d'information: </strong
+                      >Développement d'un outil digital de gestion du parc
+                      matériel pour l'entreprise, depuis l'élaboration du cahier
+                      des charges jusqu'à la création du prototype en utilisant
+                      <strong><em>React et Django Rest Framework</em></strong
+                      >. Conception d'une solution complète optimisant le suivi
+                      et la gestion des équipements, en garantissant efficacité
+                      et évolutivité.
+                    </li>
+                    <li>
+                      <u>10/2021 - 03/2023</u>:
+                      <strong>Conducteur de Travaux Gros Oeuvre: </strong
+                      >Responsable de la gestion et de la coordination de 5
+                      chantiers de construction de logements (entre 20 et 120
+                      unités). Supervision des équipes, planification des
+                      travaux, gestion des fournisseurs et du respect des délais
+                      et budgets. Application des standards de qualité et de
+                      sécurité sur les chantiers.
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="flex items-center gap-2 p-2 m-0">
+                <div class="flex flex-col flex-shrink-0">
+                  <img
+                    class="w-20"
+                    src="https://www.fstt.org/wp-content/uploads/2022/10/Eiffage-GC-768x384.png"
+                    loading="lazy"
+                  />
+                  <img
+                    class="w-20"
+                    src="https://pbs.twimg.com/media/Dl6pxTzWsAAHLFh.jpg:large"
+                    loading="lazy"
+                  />
+                </div>
+                <div>
+                  <strong>Eiffage Génie Civil (CDI): </strong>
+                  <em
+                    >Ligne 16 - lot 1 – Zone GC1 – Aulnay-sous-Bois (93) 5
+                    ouvrages de génie civil – 1 gare, 2 puits, 2 ouvrages
+                    spéciaux (C.A. 200 millions d’euros).</em
+                  >
+                  <ul>
+                    <li>
+                      <u>05/2020 - 09/2021</u>:
+                      <strong>Responsable Qualité: </strong>gestion et contrôle
+                      du suivi d’exécution des ouvrages, préparation DOE,
+                      reporting et échanges avec MOE, gestion des
+                      non-conformités.
+                    </li>
+                    <li>
+                      <u>03/2019 - 05/2020</u>:
+                      <strong>Ingénieur OPC, responsable béton: </strong
+                      >plannings et reporting travaux, gestion d’emprise,
+                      travaux d’installation, gestion contractuelle/financière
+                      avec MOE, organisation de la production/livraison béton de
+                      la zone (1500 m3/semaine)
+                    </li>
+                    <li>
+                      <strong>Développement d'une application béton</strong> -
+                      Microsoft PowerApps : contrôle et suivi des bétonnages sur
+                      site, digitalisation du process pour exploitation qualité
+                      et comptabilité. 5000 m3/semaine, 60 utilisateurs.
+                    </li>
+                    <li>
+                      Suivi des escaliers préfabriqués: contrats, études,
+                      production, suvi réception et pose.
+                    </li>
+                    <li>
+                      <strong>Logiciels: </strong>Power BI, MS Project,
+                      PowerApps, Autocad, Revit
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="flex items-center gap-2 bg-slate-100 p-2 m-0">
+                <img
+                  class="w-20 object-cover"
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Logo_Eiffage_Construction.svg/1280px-Logo_Eiffage_Construction.svg.png"
+                  loading="lazy"
+                />
+                <div>
+                  <u>2018</u>: <strong>Eiffage Construction Bois : </strong>SFE
+                  conducteur de travaux (6 mois) - préparation et lancement d’un
+                  chantier de construction neuve / réhabilitation (C.A. 6
+                  millions d’euros), étude de la pose des éléments bois sur
+                  chantier.
+                  <br />
+                  <em
+                    >Restructuration d’une résidence - Boulogne-Billencourt
+                    (92)</em
+                  >
+                </div>
+              </li>
+              <li class="flex items-center gap-2 p-2 m-0">
+                <img
+                  class="w-20 object-cover"
+                  src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Logo_Razel-Bec.jpg"
+                  loading="lazy"
+                />
+                <div>
+                  <u>2016</u>: <strong>Razel-Bec : </strong>Stage Ouvrier (1
+                  mois)
+                  <br />
+                  <em> Chantier ligne 14 (lot 6) - Paris, Porte de Clichy.</em>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- Formations -->
+        <section class="mb-8">
+          <h2
+            class="text-2xl font-semibold border-b-2 border-gray-200 pb-2 mb-4"
+            data-content-id="education-title"
+          >
+            Formations
+          </h2>
+          <div class="text-gray-700">
+            <ul class="flex flex-col gap-2" data-content-id="education-text">
+              <li>
+                <u>2024</u>:
+                <strong
+                  >Certification Développeur FullStack - freeCodeCamp : </strong
+                >Responsive Web Design, Frontend - React.js, SQL databases,
+                Backend - Node.js, Quality Assurance, Security
+              </li>
+              <li>
+                <u>2015-2018:</u>
+                <strong
+                  >Ecole Nationale Supérieure des Arts et Métiers (ENSAM
+                  ParisTech) :</strong
+                >
+                Ingénierie mécanique, spécialité bois (matériau, procédé,
+                construction)<br /><em>Campus de Châlons-en-C (51)</em>
+              </li>
+              <li>
+                <u>2013-2015:</u> <strong>Classes Préparatoires</strong> aux
+                grandes écoles - MPSI/PSI<br /><em
+                  >Lycée Blaise Pascal - Orsay (91)</em
+                >
+              </li>
+              <li>
+                <u>2013:</u> <strong>Baccalauréat Scientifique</strong> -
+                Mention Très Bien
+              </li>
+            </ul>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
