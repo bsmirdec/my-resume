@@ -20,6 +20,13 @@ const skills = [
   "PostgreSQL",
   "NoSQL",
   "MongoDB",
+  "Bash",
+  "Microsoft Power BI",
+  "Pack Microsoft Office 365",
+  "MS Project",
+  "Autocad",
+  "Apache",
+  "Docker",
 ];
 
 function displaySkills() {
