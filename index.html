@@ -21,7 +21,7 @@
             alt="Français"
             class="w-5 h-4 mr-1"
           />
-          Français
+          <p class="hidden sm:block">Français</p>
         </label>
         <input
           type="radio"
@@ -37,7 +37,7 @@
             alt="English"
             class="w-5 h-4 mr-1"
           />
-          English
+          <p class="hidden sm:block">English</p>
         </label>
         <input
           type="radio"
@@ -49,7 +49,7 @@
       </div>
     </div>
 
-    <div class="md:grid md:grid-flow-col sm:grid-cols-3 max-w-6xl mx-auto">
+    <div class="md:grid md:grid-flow-col md:grid-cols-3 max-w-6xl mx-auto">
       <!-- Left Container -->
       <div
         id="left-container"
@@ -99,6 +99,7 @@
 
           <div class="flex w-full space-x-4 mt-4 justify-around">
             <!-- Icône LinkedIn -->
+            <p>.</p>
             <a
               href="https://www.linkedin.com/in/bogdan-smirdec-318758115/"
               class="text-gray-700 hover:text-blue-600"
@@ -106,7 +107,7 @@
             >
               <i class="fab fa-linkedin-in fa-2x"></i>
             </a>
-
+            <p>.</p>
             <!-- Icône GitHub -->
             <a
               href="https://github.com/bsmirdec"
@@ -115,6 +116,26 @@
             >
               <i class="fab fa-github fa-2x"></i>
             </a>
+            <p>.</p>
+          </div>
+        </section>
+
+        <section>
+          <div class="text-justify mb-8">
+            <p
+              class="text-gray-700 leading-relaxed bg-gray-200 p-4 rounded-xl md:hidden"
+              data-content-id="presentation-text"
+            >
+              Fort de 5 ans d'expérience en tant qu'ingénieur travaux, j'ai
+              développé de solides compétences en gestion de projet, travail en
+              équipe, et relations interpersonnelles, en plus des connaissances
+              techniques propres à mon métier. Suite à une expatriation en Corée
+              du Sud, j'ai choisi de me reconvertir dans le développement web,
+              un domaine qui m'avait déjà attiré par le passé. Après 6 mois de
+              formation intensive en autonomie, je suis désormais prêt à
+              m'engager professionnellement en tant que développeur backend ou
+              fullstack.
+            </p>
           </div>
         </section>
 
@@ -186,7 +207,7 @@
       >
         <div class="text-justify mb-8">
           <p
-            class="text-gray-700 leading-relaxed bg-gray-200 p-4 rounded-xl"
+            class="text-gray-700 leading-relaxed bg-gray-200 p-4 rounded-xl hidden md:block"
             data-content-id="presentation-text"
           >
             Fort de 5 ans d'expérience en tant qu'ingénieur travaux, j'ai
@@ -226,10 +247,19 @@
                       >Développement d'un outil digital de gestion du parc
                       matériel pour l'entreprise, depuis l'élaboration du cahier
                       des charges jusqu'à la création du prototype en utilisant
-                      <strong><em>React et Django Rest Framework</em></strong
-                      >. Conception d'une solution complète optimisant le suivi
-                      et la gestion des équipements, en garantissant efficacité
-                      et évolutivité.
+                      <u>React et Django Rest Framework</u>. Conception d'une
+                      solution complète optimisant le suivi et la gestion des
+                      équipements, en garantissant efficacité et évolutivité.
+                      <br />
+                      <em
+                        ><strong>Fonctionnalités:</strong> Management de stock,
+                        Authentification, Autorisations, ...</em
+                      >
+                      <br />
+                      <em
+                        ><strong>Technologies:</strong> Django, Django Rest
+                        Framework, React.js, React Query, MUI</em
+                      >
                     </li>
                     <li>
                       <u>10/2021 - 03/2023</u>:

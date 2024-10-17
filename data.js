@@ -59,7 +59,11 @@ const content = {
                       <u>04/2023 - 03/2024</u>:\
                       <strong>Ingénieur systèmes d'information: </strong>\
                       Développement d'un outil digital de gestion du parc matériel pour l'entreprise, depuis l'élaboration du cahier des charges jusqu'à la création du prototype en utilisant\
-                      <strong><em>React et Django Rest Framework</em></strong>. Conception d'une solution complète optimisant le suivi et la gestion des équipements, en garantissant efficacité et évolutivité.\
+                      <u>React et Django Rest Framework</u>. Conception d'une solution complète optimisant le suivi et la gestion des équipements, en garantissant efficacité et évolutivité.\
+                      <br />\
+                      <em><strong>Fonctionnalités:</strong> Management de stock, Authentification, Autorisations, ...</em>\
+                      <br />\
+                      <em><strong>Technologies:</strong> Django, Django Rest Framework, React.js, React Query, MUI</em>\
                     </li>\
                     <li>\
                       <u>10/2021 - 03/2023</u>:\
@@ -149,7 +153,11 @@ const content = {
                       <u>04/2023 - 03/2024</u>:\
                       <strong>Information Systems Engineer: </strong>\
                       Development of a digital management tool for the equipment park of the company, from the preparation of the specifications to the creation of the prototype using\
-                      <strong><em>React and Django Rest Framework</em></strong>. Design of a complete solution optimizing the monitoring and management of equipment, ensuring efficiency and scalability.\
+                      <u>React and Django Rest Framework</u>. Design of a complete solution optimizing the monitoring and management of equipment, ensuring efficiency and scalability.\
+                      <br/>\
+                      <em><strong>Features:</strong> Stock management, Authentication, Permissions, ...</em>\
+                      <br/>\
+                      <em><strong>Tech stack:</strong> Django, Django Rest Framework, React.js, React Query, MUI</em>\
                     </li>\
                     <li>\
                       <u>10/2021 - 03/2023</u>:\

@@ -27,6 +27,8 @@ const skills = [
   "Autocad",
   "Apache",
   "Docker",
+  "Figma",
+  "REST API",
 ];
 
 function displaySkills() {
