@@ -4,8 +4,8 @@ const content = {
     en: "Bogdan SMIRDEC",
   },
   "profile-title": {
-    fr: "Développeur Backend - Fullstack",
-    en: "Backend - Fullstack Developer",
+    fr: "Gestion de projet IT & Industrie | Expertise BTP et numérique",
+    en: "IT & Industrial Project Management | Expertise in Construction and Digital Technologies",
   },
   "profile-location": {
     fr: "Strasbourg, France | A distance",
