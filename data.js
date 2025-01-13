@@ -36,7 +36,7 @@ const content = {
     en: "Hobbies",
   },
   "hobbies-text": {
-    fr: "<li style='list-style-type: disc; margin-left: 20px;'><strong>Voyages :</strong> Corée du Sub, Japon, Philippines, Cambodge, Laos, Viet-Nam, Mexique, Etats-Unis</li><li style='list-style-type: disc; margin-left: 20px;'><strong>Sports : </strong>Natation, Escalade, Badminton, Vélo, course à pieds, ...</li><li style='list-style-type: disc; margin-left: 20px;'>Bricolage intérieur/extérieur</li><li style='list-style-type: disc; margin-left: 20px;'>Jeux Vidéos</li>",
+    fr: "<li style='list-style-type: disc; margin-left: 20px;'><strong>Voyages :</strong> Corée du Sud, Japon, Philippines, Cambodge, Laos, Viet-Nam, Mexique, Etats-Unis</li><li style='list-style-type: disc; margin-left: 20px;'><strong>Sports : </strong>Natation, Escalade, Badminton, Vélo, course à pieds, ...</li><li style='list-style-type: disc; margin-left: 20px;'>Bricolage intérieur/extérieur</li><li style='list-style-type: disc; margin-left: 20px;'>Jeux Vidéos</li>",
     en: "<li style='list-style-type: disc; margin-left: 20px;'><strong>Travel:</strong> South Korea, Japan, Philippines, Cambodia, Laos, Vietnam, Mexico, United States</li><li style='list-style-type: disc; margin-left: 20px;'><strong>Sports : </strong>Swimming, Climbing, Badminton, Cycling, Running, ...</li><li style='list-style-type: disc; margin-left: 20px;'>Indoor/Outdoor DIY</li><li style='list-style-type: disc; margin-left: 20px;'>Video Games</li>",
   },
   "experiences-title": {
