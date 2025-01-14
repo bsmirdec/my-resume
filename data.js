@@ -4,12 +4,12 @@ const content = {
     en: "Bogdan SMIRDEC",
   },
   "profile-title": {
-    fr: "Gestion de projet IT & Industrie | Expertise BTP et numérique",
-    en: "IT & Industrial Project Management | Expertise in Construction and Digital Technologies",
+    fr: "Gestion de projet Industrie & IT | Expertise BTP et numérique",
+    en: "Industrial & IT Project Management | Expertise in Construction and Digital Technologies",
   },
   "profile-location": {
-    fr: "Strasbourg, France | A distance",
-    en: "Strasbourg, France | Full remote",
+    fr: "Strasbourg, France | Région Grand Est",
+    en: "Strasbourg, France | Région Grand Est",
   },
   "presentation-text": {
     fr: "Fort de 5 ans d'expérience en tant qu'ingénieur travaux, j'ai développé de solides compétences en gestion de projet, suivi de production, travail en équipe, et relations interpersonnelles, en plus des connaissances techniques propres à mon métier. Suite à une expatriation en Corée du Sud, j'ai choisi d'élargir mes compétences vers les technologies numériques et la gestion de projet IT, des domaines qui m'avaient déjà attiré par le passé. Après 6 mois de formation intensive en autonomie, je suis désormais prêt à m'engager dans des missions alliant gestion de projet, optimisation des processus, et innovation technologique.",
@@ -28,8 +28,8 @@ const content = {
     en: "References",
   },
   "references-text": {
-    fr: "Premier site internet - Mon Blanc de travail : www.monblancdetravail.fr",
-    en: "First website - Mon Blanc de travail : www.monblancdetravail.fr",
+    fr: "<p>Premier site internet - Mon Blanc de travail :<a href='https://www.monblancdetravail.fr' target='_blank'>www.monblancdetravail.fr</a></p>",
+    en: "<p>First website - Mon Blanc de travail :<a href='https://www.monblancdetravail.fr' target='_blank'>www.monblancdetravail.fr</a></p>",
   },
   "hobbies-title": {
     fr: "Centres d'intérêt",
@@ -37,7 +37,7 @@ const content = {
   },
   "hobbies-text": {
     fr: "<li style='list-style-type: disc; margin-left: 20px;'><strong>Voyages :</strong> Corée du Sud, Japon, Philippines, Cambodge, Laos, Viet-Nam, Mexique, Etats-Unis</li><li style='list-style-type: disc; margin-left: 20px;'><strong>Sports : </strong>Natation, Escalade, Badminton, Vélo, course à pieds, ...</li><li style='list-style-type: disc; margin-left: 20px;'>Bricolage intérieur/extérieur</li><li style='list-style-type: disc; margin-left: 20px;'>Jeux Vidéos</li>",
-    en: "<li style='list-style-type: disc; margin-left: 20px;'><strong>Travel:</strong> South Korea, Japan, Philippines, Cambodia, Laos, Vietnam, Mexico, United States</li><li style='list-style-type: disc; margin-left: 20px;'><strong>Sports : </strong>Swimming, Climbing, Badminton, Cycling, Running, ...</li><li style='list-style-type: disc; margin-left: 20px;'>Indoor/Outdoor DIY</li><li style='list-style-type: disc; margin-left: 20px;'>Video Games</li>",
+    en: "<li style='list-style-type: disc; margin-left: 20px;'><strong>Travel:</strong> South Korea, Japan, Philippines, Cambodia, Lao, Viet-Nam, Mexico, United States</li><li style='list-style-type: disc; margin-left: 20px;'><strong>Sports : </strong>Swimming, Climbing, Badminton, Cycling, Running, ...</li><li style='list-style-type: disc; margin-left: 20px;'>Indoor/Outdoor DIY</li><li style='list-style-type: disc; margin-left: 20px;'>Video Games</li>",
   },
   "experiences-title": {
     fr: "Expériences Professionnelles",
