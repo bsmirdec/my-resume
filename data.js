@@ -28,8 +28,8 @@ const content = {
     en: "References",
   },
   "references-text": {
-    fr: "<p>Premier site internet - Mon Blanc de travail :<a href='https://www.monblancdetravail.fr' target='_blank'>www.monblancdetravail.fr</a></p>",
-    en: "<p>First website - Mon Blanc de travail :<a href='https://www.monblancdetravail.fr' target='_blank'>www.monblancdetravail.fr</a></p>",
+    fr: "<p>Premier site internet - Mon Blanc de travail : <a href='https://www.monblancdetravail.fr' target='_blank'>www.monblancdetravail.fr</a></p>",
+    en: "<p>First website - Mon Blanc de travail : <a href='https://www.monblancdetravail.fr' target='_blank'>www.monblancdetravail.fr</a></p>",
   },
   "hobbies-title": {
     fr: "Centres d'intérêt",
@@ -122,7 +122,7 @@ const content = {
                   <u>2018</u>: <strong>Eiffage Construction Bois : </strong>\
                   SFE conducteur de travaux (6 mois) - préparation et lancement d’un chantier de construction neuve / réhabilitation (C.A. 6 millions d’euros), étude de la pose des éléments bois sur chantier.\
                   <br />\
-                  <em>Restructuration d’une résidence - Boulogne-Billencourt (92)</em>\
+                  <em>Restructuration d’une résidence - Boulogne-Billancourt (92)</em>\
                 </div>\
               </li>\
               <li class='flex items-center gap-2 p-2 m-0'>\
